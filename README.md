@@ -1,4 +1,3 @@
-```markdown
 # Projeto Básico NestJS com Prisma - API de Criação de Usuários
 
 Este projeto é um primeiro contato com as tecnologias NestJS e Prisma. A aplicação possui apenas um endpoint **POST** para criar usuários, recebendo um corpo JSON com os campos `name` e `occupation`. Vale ressaltar que o projeto é experimental e não segue padrões específicos de desenvolvimento, servindo apenas para fins de aprendizado.
