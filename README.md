@@ -61,5 +61,4 @@ A aplicação processa a requisição e cria um novo usuário no banco de dados.
 
 ## Considerações
 
-Este projeto é apenas para aprendizado e exploração inicial das tecnologias NestJS e Prisma, sem o compromisso com padrões avançados de desenvolvimento. É ideal para quem deseja experimentar e compreender os conceitos básicos dessas ferramentas.
-```
+Este projeto é apenas para aprendizado e exploração inicial das tecnologias NestJS e Prisma, sem o compromisso com padrões avançados de desenvolvimento.
