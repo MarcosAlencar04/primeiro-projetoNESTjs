@@ -13,8 +13,8 @@ Este projeto é um primeiro contato com as tecnologias NestJS e Prisma. A aplica
 1. **Clone o Repositório**
 
    ```bash
-   git clone <url-do-repositório>
-   cd <nome-do-projeto>
+   git clone <[url-do-repositório](https://github.com/MarcosAlencar04/primeiro-projetoNESTjs.git)>
+   cd <primeiro-projetoNESTjs>
    ```
 
 2. **Instale as Dependências**
