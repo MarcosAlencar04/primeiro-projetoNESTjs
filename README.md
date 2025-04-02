@@ -1,64 +1,74 @@
-# Projeto Básico NestJS com Prisma - API de Criação de Usuários
+# Basic NestJS Project with Prisma - User Creation API
 
-Este projeto é um primeiro contato com as tecnologias NestJS e Prisma. A aplicação possui apenas um endpoint **POST** para criar usuários, recebendo um corpo JSON com os campos `name` e `occupation`. Vale ressaltar que o projeto é experimental e não segue padrões específicos de desenvolvimento, servindo apenas para fins de aprendizado.
+This project is an initial experience with NestJS and Prisma technologies. The application has only one **POST** endpoint to create users, receiving a JSON body with the fields `name` and `occupation`. It's important to note that this is an experimental project and does not follow specific development standards, serving only educational purposes.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **NestJS**
-- **Prisma**
+- **NestJS**  
+- **Prisma**  
 - **TypeScript**
 
-## Instalação
+## Installation
 
-1. **Clone o Repositório**
+1. **Clone the Repository**
 
    ```bash
    git clone https://github.com/MarcosAlencar04/projetoInicial-NestJs.git
    cd projetoInicial-NestJs
    ```
 
-2. **Instale as Dependências**
+2. **Install Dependencies**
 
    ```bash
    npm install
    ```
 
-3. **Configure o Banco de Dados**
+3. **Configure the Database**
 
-   Crie um arquivo `.env` na raiz do projeto com a variável de conexão. Exemplo (usando SQLite):
+   Create a `.env` file at the root of the project with the connection variable. Example (using SQLite):
 
    ```env
    DATABASE_URL="file:./dev.db"
    ```
 
-4. **Execute as Migrações e Gere o Cliente Prisma**
+4. **Run Migrations and Generate Prisma Client**
 
    ```bash
    npx prisma migrate dev --name init
    npx prisma generate
    ```
 
-## Uso
+## Usage
 
-1. **Inicie o Servidor**
+1. **Start the Server**
 
    ```bash
    npm run start:dev
    ```
 
-2. **Realize uma Requisição POST**
+2. **Make a POST Request**
 
-   Envie uma requisição para `http://localhost:3000` com o corpo JSON contendo os campos `name` e `occupation`. Exemplo:
+   Send a request to `http://localhost:3000` with a JSON body containing the fields `name` and `occupation`. Example:
 
    ```json
    {
      "name": "João",
-     "occupation": "Desenvolvedor"
+     "occupation": "Developer"
    }
    ```
 
-A aplicação processa a requisição e cria um novo usuário no banco de dados.
+The application processes the request and creates a new user in the database.
 
-## Considerações
+3. **View the Database (Optional)**
 
-Este projeto é apenas para aprendizado e exploração inicial das tecnologias NestJS e Prisma, sem o compromisso com padrões avançados de desenvolvimento.
+   To view and manage the database through a visual interface, you can use the following command:
+
+   ```bash
+   npx prisma studio
+   ```
+
+   This will open Prisma Studio in your browser, allowing you to inspect and modify the data.
+
+## Considerations
+
+This project is solely for learning and initial exploration of NestJS and Prisma technologies, without adhering to advanced development standards.
